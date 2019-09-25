@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Upgrade Loan Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="Upgrade Loan UI Test Client(failed)">
+    <classes>
+      <class name="com.upgrade.qa.testcases.InformationPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clickOnCheckYourRateBtn" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.upgrade.qa.testcases.InformationPageTest -->
+      <class name="com.upgrade.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="clickSignIn" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.upgrade.qa.testcases.LoginPageTest -->
+      <class name="com.upgrade.qa.testcases.OfferPageTest">
+        <methods>
+          <include name="clickSignOut" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.upgrade.qa.testcases.OfferPageTest -->
+    </classes>
+  </test> <!-- Upgrade Loan UI Test Client(failed) -->
+</suite> <!-- Failed suite [Upgrade Loan Test Suite] -->

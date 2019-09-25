@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-25T03:10:12Z" name="Default suite" finished-at="2019-09-25T03:10:53Z" duration-ms="40797">
+    <groups>
+    </groups>
+    <test started-at="2019-09-25T03:10:12Z" name="Default test" finished-at="2019-09-25T03:10:53Z" duration-ms="40797">
+      <class name="com.upgrade.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:13Z" name="setup" finished-at="2019-09-24T23:10:23Z" duration-ms="9856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickSignIn(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:23Z" name="clickSignIn" data-provider="getExcelTestData" finished-at="2019-09-24T23:10:38Z" duration-ms="15012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Snow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Golden Street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lititz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17543.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/04/1992]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[170000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7000.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alekhya19@upgrade-challenge.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Randon12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:38Z" name="tearDown" finished-at="2019-09-24T23:10:38Z" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:38Z" name="setup" finished-at="2019-09-24T23:10:46Z" duration-ms="7852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickSignIn(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:46Z" name="clickSignIn" data-provider="getExcelTestData" finished-at="2019-09-24T23:10:52Z" duration-ms="5927" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hackens]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2345 Crystal Drive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Arlington]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[22202.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[04/01/2010]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[180,00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[8000.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[tom209@upgrade-challenge.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Random13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[DOB entered is not within valid range!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: DOB entered is not within valid range!!
+	at com.upgrade.qa.testcases.LoginPageTest.clickSignIn(LoginPageTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.upgrade.qa.testcases.LoginPageTest@16610890]" started-at="2019-09-24T23:10:52Z" name="tearDown" finished-at="2019-09-24T23:10:53Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.upgrade.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

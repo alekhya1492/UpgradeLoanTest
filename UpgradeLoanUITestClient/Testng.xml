@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Upgrade Loan Test Suite">
+
+<test name = "Upgrade Loan UI Test Client">
+
+<classes>
+
+<class name = "com.upgrade.qa.testcases.StartPageTest"/>
+<class name = "com.upgrade.qa.testcases.OfferPageTest"/>
+<class name = "com.upgrade.qa.testcases.InformationPageTest"/>
+<class name = "com.upgrade.qa.testcases.LoginPageTest"/>
+
+</classes>
+
+</test>
+
+</suite>

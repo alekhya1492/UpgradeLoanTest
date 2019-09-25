@@ -1,0 +1,20 @@
+2019-09-24 23:10:23,574 DEBUG [main] StartPage:36 - Check your Rate button in Start page is clicked!! 
+2019-09-24 23:10:23,610 DEBUG [main] LoginPageTest:63 -  Entering into clickSignIn() 
+2019-09-24 23:10:29,169 DEBUG [main] InformationPage:91 - Check you Rate button in Information page is clicked!!
+2019-09-24 23:10:29,171 DEBUG [main] LoginPageTest:68 - check your rate in information paage is clicked
+2019-09-24 23:10:32,229 DEBUG [main] OfferPage:71 - Offer Page values array :: [16.99% APR (more info), 2,000, 13.36% Interest Rate, $67.74, 36 Month Term]
+2019-09-24 23:10:32,285 DEBUG [main] OfferPage:80 - Menu Button is clicked!!
+2019-09-24 23:10:32,585 DEBUG [main] OfferPage:86 - SignOut Button is clicked!!
+2019-09-24 23:10:32,588 DEBUG [main] LoginPageTest:92 -  Navigating to login URL !!! 
+2019-09-24 23:10:35,208 DEBUG [main] LoginPage:33 - SignIn Button is clicked!!!
+2019-09-24 23:10:38,611 DEBUG [main] OfferPage:71 - Offer Page values array :: [16.99% APR (more info), 2,000, 13.36% Interest Rate, $67.74, 36 Month Term]
+2019-09-24 23:10:38,611 DEBUG [main] LoginPageTest:114 -  Exiting from clickSignIn() 
+2019-09-24 23:10:38,987  INFO [main] LoginPageTest:123 - Browser Closed
+2019-09-24 23:10:38,988  INFO [main] LoginPageTest:125 - Test_case_4 Executed Successfully
+2019-09-24 23:10:46,837 DEBUG [main] StartPage:36 - Check your Rate button in Start page is clicked!! 
+2019-09-24 23:10:46,844 DEBUG [main] LoginPageTest:63 -  Entering into clickSignIn() 
+2019-09-24 23:10:52,686 DEBUG [main] InformationPage:91 - Check you Rate button in Information page is clicked!!
+2019-09-24 23:10:52,690 DEBUG [main] LoginPageTest:68 - check your rate in information paage is clicked
+2019-09-24 23:10:52,768 DEBUG [main] LoginPageTest:80 - DOB Validation :: You must be at least 18 years old.
+2019-09-24 23:10:53,062  INFO [main] LoginPageTest:123 - Browser Closed
+2019-09-24 23:10:53,063  INFO [main] LoginPageTest:125 - Test_case_4 Executed Successfully
