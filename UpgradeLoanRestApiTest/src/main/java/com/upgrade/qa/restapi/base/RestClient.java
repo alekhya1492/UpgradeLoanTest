@@ -13,6 +13,8 @@ returns closebaleHttpResponse.*/
 
 public class RestClient {
 
+	// Get Method without headers
+
 	public CloseableHttpResponse get(String url) throws ClientProtocolException, IOException {
 		CloseableHttpClient httpClient = HttpClients.createDefault();// Creates a client connection and returns a
 																		// CloseableHttpcCient object
@@ -22,4 +24,5 @@ public class RestClient {
 		return closebaleHttpResponse;
 
 	}
+
 }

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.upgrade.qa.restapi.test.GetApiTest">
+      <class name="com.upgrade.qa.restapi.test.PostApiTestingRestAssured">
         <methods>
-          <include name="getAPITest"/>
           <include name="setUp"/>
+          <include name="postApiTest"/>
         </methods>
-      </class> <!-- com.upgrade.qa.restapi.test.GetApiTest -->
+      </class> <!-- com.upgrade.qa.restapi.test.PostApiTestingRestAssured -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

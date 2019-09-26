@@ -1,47 +1,187 @@
-2019-09-24 23:09:27,743 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: default
-2019-09-24 23:09:27,767 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
-2019-09-24 23:09:27,768 DEBUG [main] PoolingHttpClientConnectionManager:266 - Connection request: [route: {s}->https://credapi.credify.tech:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2019-09-24 23:09:27,797 DEBUG [main] PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {s}->https://credapi.credify.tech:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2019-09-24 23:09:27,799 DEBUG [main] MainClientExec:234 - Opening connection {s}->https://credapi.credify.tech:443
-2019-09-24 23:09:27,949 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to credapi.credify.tech/52.10.194.86:443
-2019-09-24 23:09:27,949 DEBUG [main] SSLConnectionSocketFactory:366 - Connecting socket to credapi.credify.tech/52.10.194.86:443 with timeout 0
-2019-09-24 23:09:28,122 DEBUG [main] SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
-2019-09-24 23:09:28,123 DEBUG [main] SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA]
-2019-09-24 23:09:28,124 DEBUG [main] SSLConnectionSocketFactory:435 - Starting handshake
-2019-09-24 23:09:28,623 DEBUG [main] SSLConnectionSocketFactory:465 - Secure session established
-2019-09-24 23:09:28,625 DEBUG [main] SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
-2019-09-24 23:09:28,626 DEBUG [main] SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-2019-09-24 23:09:28,627 DEBUG [main] SSLConnectionSocketFactory:475 -  peer principal: CN=*.credify.tech
-2019-09-24 23:09:28,628 DEBUG [main] SSLConnectionSocketFactory:484 -  peer alternative names: [*.credify.tech, credify.tech]
-2019-09-24 23:09:28,629 DEBUG [main] SSLConnectionSocketFactory:488 -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
-2019-09-24 23:09:28,642 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.2.120:58492<->52.10.194.86:443
-2019-09-24 23:09:28,643 DEBUG [main] MainClientExec:255 - Executing request GET /api/loanapp/v1/states HTTP/1.1
-2019-09-24 23:09:28,643 DEBUG [main] MainClientExec:260 - Target auth state: UNCHALLENGED
-2019-09-24 23:09:28,645 DEBUG [main] MainClientExec:266 - Proxy auth state: UNCHALLENGED
-2019-09-24 23:09:28,648 DEBUG [main] headers:133 - http-outgoing-0 >> GET /api/loanapp/v1/states HTTP/1.1
-2019-09-24 23:09:28,649 DEBUG [main] headers:136 - http-outgoing-0 >> Host: credapi.credify.tech
-2019-09-24 23:09:28,649 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: Keep-Alive
-2019-09-24 23:09:28,650 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)
-2019-09-24 23:09:28,650 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-2019-09-24 23:09:28,651 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /api/loanapp/v1/states HTTP/1.1[\r][\n]"
-2019-09-24 23:09:28,652 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: credapi.credify.tech[\r][\n]"
-2019-09-24 23:09:28,652 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2019-09-24 23:09:28,653 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)[\r][\n]"
-2019-09-24 23:09:28,653 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2019-09-24 23:09:28,654 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
-2019-09-24 23:09:28,748 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
-2019-09-24 23:09:28,749 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Wed, 25 Sep 2019 03:09:28 GMT[\r][\n]"
-2019-09-24 23:09:28,750 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 0[\r][\n]"
-2019-09-24 23:09:28,750 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-2019-09-24 23:09:28,751 DEBUG [main] wire:73 - http-outgoing-0 << "server: envoy[\r][\n]"
-2019-09-24 23:09:28,752 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
-2019-09-24 23:09:28,756 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 404 Not Found
-2019-09-24 23:09:28,757 DEBUG [main] headers:125 - http-outgoing-0 << Date: Wed, 25 Sep 2019 03:09:28 GMT
-2019-09-24 23:09:28,758 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 0
-2019-09-24 23:09:28,758 DEBUG [main] headers:125 - http-outgoing-0 << Connection: keep-alive
-2019-09-24 23:09:28,759 DEBUG [main] headers:125 - http-outgoing-0 << server: envoy
-2019-09-24 23:09:28,770 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
-2019-09-24 23:09:28,782 DEBUG [main] PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {s}->https://credapi.credify.tech:443] can be kept alive indefinitely
-2019-09-24 23:09:28,783 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
-2019-09-24 23:09:28,783 DEBUG [main] PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {s}->https://credapi.credify.tech:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-2019-09-24 23:09:28,794 DEBUG [main] GetApiTest:54 - Status Code--->404
+2019-09-26 08:53:27,934  INFO [main] PostApiTestingRestAssured:40 - Entering the postApiTest Method
+2019-09-26 08:53:28,279 DEBUG [main] PostApiTestingRestAssured:62 - printing the json String{"username":"coding.challenge.login@upgrade.com","password":"On$3XcgsW#9q"}
+2019-09-26 08:53:29,653 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://credapi.credify.tech:443
+2019-09-26 08:53:29,700 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to credapi.credify.tech:443
+2019-09-26 08:53:30,309 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-09-26 08:53:30,312 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-09-26 08:53:30,313 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-09-26 08:53:30,314 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-09-26 08:53:30,315 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2019-09-26 08:53:30,316 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/brportorch/v2/login HTTP/1.1
+2019-09-26 08:53:30,317 DEBUG [main] wire:73 -  >> "POST /api/brportorch/v2/login HTTP/1.1[\r][\n]"
+2019-09-26 08:53:30,318 DEBUG [main] wire:73 -  >> "x-cf-corr-id: f884865b-f7e6-4b46-8b8b-3f2aaae451a7[\r][\n]"
+2019-09-26 08:53:30,319 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-09-26 08:53:30,320 DEBUG [main] wire:73 -  >> "x-cf-source-id: coding-challenge[\r][\n]"
+2019-09-26 08:53:30,321 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-09-26 08:53:30,322 DEBUG [main] wire:73 -  >> "Content-Length: 75[\r][\n]"
+2019-09-26 08:53:30,325 DEBUG [main] wire:73 -  >> "Host: credapi.credify.tech[\r][\n]"
+2019-09-26 08:53:30,327 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-09-26 08:53:30,328 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)[\r][\n]"
+2019-09-26 08:53:30,329 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-26 08:53:30,330 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-09-26 08:53:30,332 DEBUG [main] headers:278 - >> POST /api/brportorch/v2/login HTTP/1.1
+2019-09-26 08:53:30,333 DEBUG [main] headers:281 - >> x-cf-corr-id: f884865b-f7e6-4b46-8b8b-3f2aaae451a7
+2019-09-26 08:53:30,334 DEBUG [main] headers:281 - >> Accept: */*
+2019-09-26 08:53:30,335 DEBUG [main] headers:281 - >> x-cf-source-id: coding-challenge
+2019-09-26 08:53:30,337 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-09-26 08:53:30,338 DEBUG [main] headers:281 - >> Content-Length: 75
+2019-09-26 08:53:30,339 DEBUG [main] headers:281 - >> Host: credapi.credify.tech
+2019-09-26 08:53:30,340 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-09-26 08:53:30,341 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)
+2019-09-26 08:53:30,341 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-09-26 08:53:30,342 DEBUG [main] wire:87 -  >> "{"username":"coding.challenge.login@upgrade.com","password":"On$3XcgsW#9q"}"
+2019-09-26 08:53:30,685 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-26 08:53:30,688 DEBUG [main] wire:73 -  << "Date: Thu, 26 Sep 2019 12:53:30 GMT[\r][\n]"
+2019-09-26 08:53:30,689 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-09-26 08:53:30,690 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-09-26 08:53:30,691 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-09-26 08:53:30,692 DEBUG [main] wire:73 -  << "x-application-context: borrower-portal-orch:ondemand:8080[\r][\n]"
+2019-09-26 08:53:30,693 DEBUG [main] wire:73 -  << "set-cookie: access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3V1aWQiOiIzNGMxNmY1My0zOGM0LTQ2MWEtYmQxNC0xMWZhNzQ4ZDI2NjMiLCJhcGlfY2xpZW50X2lkIjotMSwidXNlcl9pZCI6OTExNDkxNywidXNlcl9uYW1lIjoiY29kaW5nLmNoYWxsZW5nZS5sb2dpbkB1cGdyYWRlLmNvbSIsInNjb3BlIjpbIm9wZW5pZCJdLCJleHAiOjE1Njk1MDQyMTAsImF1dGhvcml0aWVzIjpbIlJPTEVfQk9SUk9XRVJfVVNFUiJdLCJqdGkiOiJjNzRiY2IyMi1mNjE0LTRjY2ItOTQxNC1hOWY3MTM2ZDU0MDgiLCJjbGllbnRfaWQiOiJjcmVkaWZ5In0.ZCWVJV4-GdLIFiOtpFqNyH0QzBISgZ09CBUdvDA-8fq4L_lpnJ-1y3lQbwQSCNlYHPmY-Xp85aFIzR_s42ZeQdmFRPmhHulitQ6KyMt7DHuFKo5DZ3J1FZ1KJQiK8VhOZ7TWEnunTep7SL-rL_biLpADfZAbGpZcRbwLLt4tRyBT_Kp2W5065mK3hC3Q5zLKF4jWzt597GCYDf_cDOhy2IOdq1vQnMkAxSgcp7AI9CwN5q7tAxlAMhFgjqA86i6Zi4ag350ZdmWnjMo7O1tcEUflrxHdp_v9YOxuOhUCwv0d_W8J7eqz20Qzlq8mEWuXLGoRzUo2UU846aO049ktWA; Max-Age=1799; Expires=Thu, 26-Sep-2019 13:23:29 GMT; Path=/; Secure; HttpOnly[\r][\n]"
+2019-09-26 08:53:30,694 DEBUG [main] wire:73 -  << "x-content-type-options: nosniff[\r][\n]"
+2019-09-26 08:53:30,695 DEBUG [main] wire:73 -  << "x-xss-protection: 1; mode=block[\r][\n]"
+2019-09-26 08:53:30,696 DEBUG [main] wire:73 -  << "cache-control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2019-09-26 08:53:30,697 DEBUG [main] wire:73 -  << "pragma: no-cache[\r][\n]"
+2019-09-26 08:53:30,697 DEBUG [main] wire:73 -  << "expires: 0[\r][\n]"
+2019-09-26 08:53:30,698 DEBUG [main] wire:73 -  << "strict-transport-security: max-age=31536000 ; includeSubDomains[\r][\n]"
+2019-09-26 08:53:30,698 DEBUG [main] wire:73 -  << "x-frame-options: DENY[\r][\n]"
+2019-09-26 08:53:30,699 DEBUG [main] wire:73 -  << "server: envoy[\r][\n]"
+2019-09-26 08:53:30,700 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:30,704 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-09-26 08:53:30,705 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2019-09-26 08:53:30,706 DEBUG [main] headers:265 - << Date: Thu, 26 Sep 2019 12:53:30 GMT
+2019-09-26 08:53:30,707 DEBUG [main] headers:265 - << Content-Type: application/json;charset=UTF-8
+2019-09-26 08:53:30,708 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2019-09-26 08:53:30,709 DEBUG [main] headers:265 - << Connection: keep-alive
+2019-09-26 08:53:30,710 DEBUG [main] headers:265 - << x-application-context: borrower-portal-orch:ondemand:8080
+2019-09-26 08:53:30,710 DEBUG [main] headers:265 - << set-cookie: access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3V1aWQiOiIzNGMxNmY1My0zOGM0LTQ2MWEtYmQxNC0xMWZhNzQ4ZDI2NjMiLCJhcGlfY2xpZW50X2lkIjotMSwidXNlcl9pZCI6OTExNDkxNywidXNlcl9uYW1lIjoiY29kaW5nLmNoYWxsZW5nZS5sb2dpbkB1cGdyYWRlLmNvbSIsInNjb3BlIjpbIm9wZW5pZCJdLCJleHAiOjE1Njk1MDQyMTAsImF1dGhvcml0aWVzIjpbIlJPTEVfQk9SUk9XRVJfVVNFUiJdLCJqdGkiOiJjNzRiY2IyMi1mNjE0LTRjY2ItOTQxNC1hOWY3MTM2ZDU0MDgiLCJjbGllbnRfaWQiOiJjcmVkaWZ5In0.ZCWVJV4-GdLIFiOtpFqNyH0QzBISgZ09CBUdvDA-8fq4L_lpnJ-1y3lQbwQSCNlYHPmY-Xp85aFIzR_s42ZeQdmFRPmhHulitQ6KyMt7DHuFKo5DZ3J1FZ1KJQiK8VhOZ7TWEnunTep7SL-rL_biLpADfZAbGpZcRbwLLt4tRyBT_Kp2W5065mK3hC3Q5zLKF4jWzt597GCYDf_cDOhy2IOdq1vQnMkAxSgcp7AI9CwN5q7tAxlAMhFgjqA86i6Zi4ag350ZdmWnjMo7O1tcEUflrxHdp_v9YOxuOhUCwv0d_W8J7eqz20Qzlq8mEWuXLGoRzUo2UU846aO049ktWA; Max-Age=1799; Expires=Thu, 26-Sep-2019 13:23:29 GMT; Path=/; Secure; HttpOnly
+2019-09-26 08:53:30,711 DEBUG [main] headers:265 - << x-content-type-options: nosniff
+2019-09-26 08:53:30,712 DEBUG [main] headers:265 - << x-xss-protection: 1; mode=block
+2019-09-26 08:53:30,712 DEBUG [main] headers:265 - << cache-control: no-cache, no-store, max-age=0, must-revalidate
+2019-09-26 08:53:30,713 DEBUG [main] headers:265 - << pragma: no-cache
+2019-09-26 08:53:30,713 DEBUG [main] headers:265 - << expires: 0
+2019-09-26 08:53:30,714 DEBUG [main] headers:265 - << strict-transport-security: max-age=31536000 ; includeSubDomains
+2019-09-26 08:53:30,715 DEBUG [main] headers:265 - << x-frame-options: DENY
+2019-09-26 08:53:30,715 DEBUG [main] headers:265 - << server: envoy
+2019-09-26 08:53:30,720 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2019-09-26 08:53:30,829 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2019-09-26 08:53:30,831 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-09-26 08:53:31,139 DEBUG [main] wire:73 -  << "1e7[\r][\n]"
+2019-09-26 08:53:31,140 DEBUG [main] wire:73 -  << "{[\n]"
+2019-09-26 08:53:31,141 DEBUG [main] wire:73 -  << "  "firstName" : "Ian",[\n]"
+2019-09-26 08:53:31,142 DEBUG [main] wire:73 -  << "  "userId" : 9114917,[\n]"
+2019-09-26 08:53:31,142 DEBUG [main] wire:73 -  << "  "userUuid" : "34c16f53-38c4-461a-bd14-11fa748d2663",[\n]"
+2019-09-26 08:53:31,143 DEBUG [main] wire:73 -  << "  "loanApplications" : [ ],[\n]"
+2019-09-26 08:53:31,143 DEBUG [main] wire:73 -  << "  "loansInReview" : [ {[\n]"
+2019-09-26 08:53:31,144 DEBUG [main] wire:73 -  << "    "id" : 9545966,[\n]"
+2019-09-26 08:53:31,145 DEBUG [main] wire:73 -  << "    "uuid" : "230ea84a-7199-41c9-bf38-fff27e35970d",[\n]"
+2019-09-26 08:53:31,146 DEBUG [main] wire:73 -  << "    "status" : "PENDING",[\n]"
+2019-09-26 08:53:31,147 DEBUG [main] wire:73 -  << "    "productType" : "PERSONAL_LOAN",[\n]"
+2019-09-26 08:53:31,148 DEBUG [main] wire:73 -  << "    "sourceSystem" : "BORROWER_FUNNEL_V2",[\n]"
+2019-09-26 08:53:31,149 DEBUG [main] wire:73 -  << "    "hasOpenBackendCounter" : false,[\n]"
+2019-09-26 08:53:31,151 DEBUG [main] wire:73 -  << "    "purpose" : "CREDIT_CARD",[\n]"
+2019-09-26 08:53:31,151 DEBUG [main] wire:73 -  << "    "createDate" : "2019-08-21T18:18:59.959Z",[\n]"
+2019-09-26 08:53:31,152 DEBUG [main] wire:73 -  << "    "postIssuanceStatus" : null[\n]"
+2019-09-26 08:53:31,153 DEBUG [main] wire:73 -  << "  } ][\n]"
+2019-09-26 08:53:31,153 DEBUG [main] wire:87 -  << "}"
+2019-09-26 08:53:31,157 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:31,158 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2019-09-26 08:53:31,162 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:31,163 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16aed49f
+2019-09-26 08:53:31,163 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-09-26 08:53:31,254  INFO [main] PostApiTestingRestAssured:82 - Printing the response after validating{
+  "firstName" : "Ian",
+  "userId" : 9114917,
+  "userUuid" : "34c16f53-38c4-461a-bd14-11fa748d2663",
+  "loanApplications" : [ ],
+  "loansInReview" : [ {
+    "id" : 9545966,
+    "uuid" : "230ea84a-7199-41c9-bf38-fff27e35970d",
+    "status" : "PENDING",
+    "productType" : "PERSONAL_LOAN",
+    "sourceSystem" : "BORROWER_FUNNEL_V2",
+    "hasOpenBackendCounter" : false,
+    "purpose" : "CREDIT_CARD",
+    "createDate" : "2019-08-21T18:18:59.959Z",
+    "postIssuanceStatus" : null
+  } ]
+}
+2019-09-26 08:53:31,322 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://credapi.credify.tech:443
+2019-09-26 08:53:31,323 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to credapi.credify.tech:443
+2019-09-26 08:53:31,678 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-09-26 08:53:31,679 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-09-26 08:53:31,680 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-09-26 08:53:31,681 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-09-26 08:53:31,682 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2019-09-26 08:53:31,683 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/brportorch/v2/login HTTP/1.1
+2019-09-26 08:53:31,684 DEBUG [main] wire:73 -  >> "POST /api/brportorch/v2/login HTTP/1.1[\r][\n]"
+2019-09-26 08:53:31,685 DEBUG [main] wire:73 -  >> "x-cf-corr-id: f884865b-f7e6-4b46-8b8b-3f2aaae451a7[\r][\n]"
+2019-09-26 08:53:31,686 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-09-26 08:53:31,687 DEBUG [main] wire:73 -  >> "x-cf-source-id: coding-challenge[\r][\n]"
+2019-09-26 08:53:31,688 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-09-26 08:53:31,689 DEBUG [main] wire:73 -  >> "Content-Length: 63[\r][\n]"
+2019-09-26 08:53:31,690 DEBUG [main] wire:73 -  >> "Host: credapi.credify.tech[\r][\n]"
+2019-09-26 08:53:31,691 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-09-26 08:53:31,692 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)[\r][\n]"
+2019-09-26 08:53:31,693 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-26 08:53:31,694 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-09-26 08:53:31,695 DEBUG [main] headers:278 - >> POST /api/brportorch/v2/login HTTP/1.1
+2019-09-26 08:53:31,695 DEBUG [main] headers:281 - >> x-cf-corr-id: f884865b-f7e6-4b46-8b8b-3f2aaae451a7
+2019-09-26 08:53:31,696 DEBUG [main] headers:281 - >> Accept: */*
+2019-09-26 08:53:31,697 DEBUG [main] headers:281 - >> x-cf-source-id: coding-challenge
+2019-09-26 08:53:31,698 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-09-26 08:53:31,699 DEBUG [main] headers:281 - >> Content-Length: 63
+2019-09-26 08:53:31,700 DEBUG [main] headers:281 - >> Host: credapi.credify.tech
+2019-09-26 08:53:31,701 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-09-26 08:53:31,701 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.2)
+2019-09-26 08:53:31,702 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-09-26 08:53:31,703 DEBUG [main] wire:87 -  >> "{"username":"test.login@upgrade.com","password":"On$3XcgsW#9q"}"
+2019-09-26 08:53:31,855 DEBUG [main] wire:73 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-09-26 08:53:31,856 DEBUG [main] wire:73 -  << "Date: Thu, 26 Sep 2019 12:53:31 GMT[\r][\n]"
+2019-09-26 08:53:31,857 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-09-26 08:53:31,858 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-09-26 08:53:31,859 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-09-26 08:53:31,859 DEBUG [main] wire:73 -  << "x-application-context: borrower-portal-orch:ondemand:8080[\r][\n]"
+2019-09-26 08:53:31,860 DEBUG [main] wire:73 -  << "x-content-type-options: nosniff[\r][\n]"
+2019-09-26 08:53:31,861 DEBUG [main] wire:73 -  << "x-xss-protection: 1; mode=block[\r][\n]"
+2019-09-26 08:53:31,862 DEBUG [main] wire:73 -  << "cache-control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2019-09-26 08:53:31,863 DEBUG [main] wire:73 -  << "pragma: no-cache[\r][\n]"
+2019-09-26 08:53:31,863 DEBUG [main] wire:73 -  << "expires: 0[\r][\n]"
+2019-09-26 08:53:31,864 DEBUG [main] wire:73 -  << "strict-transport-security: max-age=31536000 ; includeSubDomains[\r][\n]"
+2019-09-26 08:53:31,864 DEBUG [main] wire:73 -  << "x-frame-options: DENY[\r][\n]"
+2019-09-26 08:53:31,865 DEBUG [main] wire:73 -  << "server: envoy[\r][\n]"
+2019-09-26 08:53:31,867 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:31,868 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-09-26 08:53:31,868 DEBUG [main] headers:262 - << HTTP/1.1 401 Unauthorized
+2019-09-26 08:53:31,869 DEBUG [main] headers:265 - << Date: Thu, 26 Sep 2019 12:53:31 GMT
+2019-09-26 08:53:31,870 DEBUG [main] headers:265 - << Content-Type: application/json;charset=UTF-8
+2019-09-26 08:53:31,871 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2019-09-26 08:53:31,873 DEBUG [main] headers:265 - << Connection: keep-alive
+2019-09-26 08:53:31,874 DEBUG [main] headers:265 - << x-application-context: borrower-portal-orch:ondemand:8080
+2019-09-26 08:53:31,875 DEBUG [main] headers:265 - << x-content-type-options: nosniff
+2019-09-26 08:53:31,875 DEBUG [main] headers:265 - << x-xss-protection: 1; mode=block
+2019-09-26 08:53:31,876 DEBUG [main] headers:265 - << cache-control: no-cache, no-store, max-age=0, must-revalidate
+2019-09-26 08:53:31,876 DEBUG [main] headers:265 - << pragma: no-cache
+2019-09-26 08:53:31,877 DEBUG [main] headers:265 - << expires: 0
+2019-09-26 08:53:31,877 DEBUG [main] headers:265 - << strict-transport-security: max-age=31536000 ; includeSubDomains
+2019-09-26 08:53:31,877 DEBUG [main] headers:265 - << x-frame-options: DENY
+2019-09-26 08:53:31,878 DEBUG [main] headers:265 - << server: envoy
+2019-09-26 08:53:31,879 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2019-09-26 08:53:31,881 DEBUG [main] DefaultHttpClient:77 - Authentication required
+2019-09-26 08:53:31,883 DEBUG [main] DefaultHttpClient:106 - credapi.credify.tech:443 requested authentication
+2019-09-26 08:53:31,884 DEBUG [main] DefaultHttpClient:110 - Response contains no authentication challenges
+2019-09-26 08:53:31,884 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2019-09-26 08:53:31,885 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-09-26 08:53:31,889 DEBUG [main] wire:73 -  << "c0[\r][\n]"
+2019-09-26 08:53:31,889 DEBUG [main] wire:73 -  << "{[\n]"
+2019-09-26 08:53:31,890 DEBUG [main] wire:73 -  << "  "code" : 100039,[\n]"
+2019-09-26 08:53:31,890 DEBUG [main] wire:73 -  << "  "message" : "We're sorry, the credentials you've provided are incorrect. Please try again",[\n]"
+2019-09-26 08:53:31,890 DEBUG [main] wire:73 -  << "  "retryable" : false,[\n]"
+2019-09-26 08:53:31,891 DEBUG [main] wire:73 -  << "  "type" : "NORMAL",[\n]"
+2019-09-26 08:53:31,891 DEBUG [main] wire:73 -  << "  "httpStatus" : "UNAUTHORIZED"[\n]"
+2019-09-26 08:53:31,891 DEBUG [main] wire:87 -  << "}"
+2019-09-26 08:53:31,892 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:31,892 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2019-09-26 08:53:31,893 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-09-26 08:53:31,893 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6d6d480c
+2019-09-26 08:53:31,893 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-09-26 08:53:31,894  INFO [main] PostApiTestingRestAssured:94 - Exiting from the postApiTest Method
